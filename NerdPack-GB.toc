@@ -1,0 +1,11 @@
+## Title: |r[|cff0070deNerdPack|r] Gathering Bot
+## Notes: A plugin for NerdPack.
+## Dependencies: NerdPack
+## Interface: 60200
+## Author: MrTheSoulz
+
+core.lua
+IDs/Herbs.lua
+IDs/Ores.Lua
+IDs/LM.lua
+gatheringBot.lua
