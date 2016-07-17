@@ -29,7 +29,7 @@ local function round(num, idp)
 end
 
 -- Get our files in the dir.
-if IsHackEnabled then
+if GetDirectoryFiles then
 	wipe(filesInDir)
 	for key,value in pairs({GetDirectoryFiles(_filePath..'\\*.lua')}) do
 		filesInDir[#filesInDir+1] = {
